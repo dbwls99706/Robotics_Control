@@ -56,7 +56,7 @@ MATLAB 기반으로 구현한 5개의 로봇 제어 프로젝트입니다.
 
 ### 2. project2: 2-DOF 파라미터 추정  
 - **파일**: `parameter_estimation_2dof.m`, `two_link.m`  
-- **내용**: 칼만 필터와 Error Minimization 기법을 사용해 2-DOF 로봇의 동역학 파라미터(\(\mathbf{M}, \mathbf{C}, \mathbf{G}\))를 추정하고 수렴 속도 비교.
+- **내용**: 칼만 필터와 Error Minimization 기법을 사용한 2-DOF 로봇의 동역학 파라미터 추정 및 수렴 속도 비교
 ![image](https://github.com/user-attachments/assets/88f66cc1-4d5c-4603-9893-7a1cdf6c8d23)
 ![image](https://github.com/user-attachments/assets/4747ca49-47af-4bc2-b9e5-b0c984f8454a)
 
