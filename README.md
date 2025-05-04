@@ -5,45 +5,44 @@ MATLAB 기반으로 구현한 5개의 로봇 제어 프로젝트입니다.
 ---
 
 ## 구조
-
-├─ project1 # 문제1: 3-DOF 자유 낙하 시뮬레이션
-│ ├ Free_Fall_3DOF_Simulation.m
-│ └ three_link.m
+```bash.
+├── project1
+│   ├── Free_Fall_3DOF_Simulation.m
+│   └── three_link.m
 │
-├─ project2 # 문제2: 2-DOF 동역학 파라미터 추정
-│ ├ parameter_estimation_2dof.m
-│ └ two_link.m
+├── project2
+│   ├── parameter_estimation_2dof.m
+│   └── two_link.m
 │
-├─ project3 # 문제3-1: 1-DOF Joint-Space PID 제어
-│ ├ jointspace.m
-│ └ one_link.m
+├── project3
+│   ├── jointspace.m
+│   └── one_link.m
 │
-├─ project4 # 문제3-2: 2-DOF Cartesian-Space PID 제어
-│ ├ get_Coriollis.m
-│ ├ get_Gravity.m
-│ ├ get_Inertia.m
-│ ├ get_Jacobian.m
-│ ├ get_Kinematics.m
-│ ├ main_project4.m
-│ └ two_links.m
+├── project4
+│   ├── get_Coriollis.m
+│   ├── get_Gravity.m
+│   ├── get_Inertia.m
+│   ├── get_Jacobian.m
+│   ├── get_Kinematics.m
+│   ├── main_project4.m
+│   └── two_links.m
 │
-├─ project5_1 # 문제5-1: 3-DOF Joint-Space PID CTM Controller
-│ ├ HT.m
-│ ├ joint_3dof.m
-│ ├ three_link.m
-│ ├ three_link_G.m
-│ └ three_link_I.m
+├── project5_1
+│   ├── HT.m
+│   ├── joint_3dof.m
+│   ├── three_link.m
+│   ├── three_link_G.m
+│   └── three_link_I.m
 │
-└─ project5_2 # 문제5-2: 3-DOF Cartesian-Space PID CTM Controller
-├ cartesian_3dof.m
-├ HT.m
-├ three_link.m
-├ three_link_C.m
-├ three_link_G.m
-├ three_link_I.m
-├ three_link_J.m
-└ three_link_K.m
-
+└── project5_2
+    ├── cartesian_3dof.m
+    ├── HT.m
+    ├── three_link.m
+    ├── three_link_C.m
+    ├── three_link_G.m
+    ├── three_link_I.m
+    ├── three_link_J.m
+    └── three_link_K.m
 ---
 
 ## 🚀 프로젝트 요약
