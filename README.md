@@ -72,7 +72,7 @@ MATLAB 기반으로 구현한 5개의 로봇 제어 프로젝트입니다.
 
 ### 5. project5_1: 3-DOF Joint-Space PID CTM Controller  
 - **파일**: `HT.m`, `joint_3dof.m`, `three_link*.m`  
-- **내용**: 문제3-1을 3자유도로 확장. 각 관절 목표 각도(90°, 60°, 30°) 및 일정 속도(30°/s)로 제어, 수렴 및 오버슛 분석.
+- **내용**: 문제3-1을 3자유도로 확장. 각 관절 목표 각도(90°, 60°, 30°) 및 일정 속도(30°/s)로 제어, 수렴 및 오버슈팅 분석.
 ![image](https://github.com/user-attachments/assets/b07bcb31-81c9-4c13-b5f3-63b1b7c281f7)
 
 ### 6. project5_2: 3-DOF Cartesian-Space PID CTM Controller  
