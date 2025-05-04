@@ -5,7 +5,7 @@ MATLAB 기반으로 구현한 5개의 로봇 제어 프로젝트입니다.
 ---
 
 ## 구조
-```bash.
+```bash
 ├── project1
 │   ├── Free_Fall_3DOF_Simulation.m
 │   └── three_link.m
@@ -43,9 +43,11 @@ MATLAB 기반으로 구현한 5개의 로봇 제어 프로젝트입니다.
     ├── three_link_I.m
     ├── three_link_J.m
     └── three_link_K.m
+```
 ---
 
-## 🚀 프로젝트 요약
+
+## 프로젝트 요약
 
 ### 1. project1: 3-DOF 자유 낙하 시뮬레이션  
 - **파일**: `Free_Fall_3DOF_Simulation.m`, `three_link.m`  
